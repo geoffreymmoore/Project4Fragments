@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moore.project4fragments.ItemActivity">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.moore.project4fragments.ItemFragment"
+        android:id="@+id/fragment2"
+        tools:layout="@layout/fragment_item" />
+</ScrollView>
